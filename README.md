@@ -2,8 +2,6 @@
 
 Julia Evans window manager [challenge].
 
-[challenge][https://jvns.ca/blog/2019/11/25/challenge--make-a-bouncy-window-manager/]
-
 ```bash
 git clone https://github.com/light4/bouncywm.git
 cargo build --release
@@ -15,3 +13,5 @@ xterm -display :1
 env DISPLAY=:1 ./target/release/bouncywm
 # 按 Ctrl-E 开始弹跳
 ```
+
+[challenge]: https://jvns.ca/blog/2019/11/25/challenge--make-a-bouncy-window-manager/
